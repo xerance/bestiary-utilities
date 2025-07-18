@@ -1,4 +1,4 @@
-﻿; ##################
+; ##################
 ; Bestiary Utilities
 ; ##################
 
@@ -40,7 +40,7 @@ if not FileExist(ConfigINI) {
 ; (now shows current F1 mode)
 ; ─────────────────────────────────────────────
 modeText := (F1_Mode = 1) ? "Beast STORING" : "Beast DELETING"
-TrayTip, Bestiary Utilities Loaded, Press F12 for help.`nF1 mode: %modeText%, 5
+TrayTip, Bestiary Utilities Loaded - CAPSLOCK NEEDS TO BE ACTIVE FOR SCRIPT TO WORK, Press F12 for help.`nF1 mode: %modeText%, 5
 
 ; ─────────────────────────────────────────────
 ; F12: Show help window
